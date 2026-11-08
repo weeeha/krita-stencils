@@ -1,0 +1,12 @@
+# Krita round-trip copies, regenerable from out/*.ora (about 0.9 GB)
+work/verify/
+# Codex debug output: local config and connector details, not project content
+*.log
+!work/*_run*.log
+!work/gpt_*.log
+# scratch while splitting sheets
+work/sheets/_cells/
+__pycache__/
+.DS_Store
+nohup.out
+*.tmp

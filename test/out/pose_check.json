@@ -1,0 +1,47 @@
+[
+ {
+  "pose": "standing",
+  "detected": true,
+  "n_matched": 18,
+  "mean_dev_px": 22.1,
+  "max_dev_px": 38.6,
+  "head_px": 138,
+  "heads_tall": 7.8
+ },
+ {
+  "pose": "walking",
+  "detected": true,
+  "n_matched": 18,
+  "mean_dev_px": 22.5,
+  "max_dev_px": 45.9,
+  "head_px": 144,
+  "heads_tall": 7.6
+ },
+ {
+  "pose": "running",
+  "detected": true,
+  "n_matched": 17,
+  "mean_dev_px": 120.8,
+  "max_dev_px": 565.5,
+  "head_px": 117,
+  "heads_tall": 8.6
+ },
+ {
+  "pose": "sitting",
+  "detected": true,
+  "n_matched": 18,
+  "mean_dev_px": 36.4,
+  "max_dev_px": 121.6,
+  "head_px": 154,
+  "heads_tall": 5.9
+ },
+ {
+  "pose": "reaching",
+  "detected": true,
+  "n_matched": 18,
+  "mean_dev_px": 21.1,
+  "max_dev_px": 36.7,
+  "head_px": 107,
+  "heads_tall": 8.7
+ }
+]

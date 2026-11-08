@@ -1,0 +1,272 @@
+01_man_30s/09_lying replaced by 09_lying_t2
+02_woman_20s/03_running kept local (GPT tries: ['figure small (44% of frame)', 'figure small (46% of frame)', 'figure small (46% of frame)'])
+04_woman_40s/03_running replaced by 03_running_t1
+04_woman_40s/08_punching replaced by 08_punching_t2
+05_man_heavy/03_running replaced by 03_running_t1
+05_man_heavy/07_reaching replaced by 07_reaching_t1
+05_man_heavy/08_punching replaced by 08_punching_t1
+06_woman_athlete/08_punching replaced by 08_punching_t1
+07_man_tall_thin/08_punching replaced by 08_punching_t1
+02_woman_20s/03_running kept local (GPT tries: ['figure small (44% of frame)', 'figure small (46% of frame)', 'figure small (46% of frame)'])
+07_man_tall_thin/09_lying replaced by 09_lying_t1
+08_woman_70s/03_running replaced by 03_running_t3
+08_woman_70s/06_crouching kept local (GPT tries: ['figure small (40% of frame)', 'figure small (43% of frame)', 'figure small (42% of frame)'])
+08_woman_70s/07_reaching replaced by 07_reaching_t1
+08_woman_70s/08_punching replaced by 08_punching_t1
+09_man_muscular/08_punching replaced by 08_punching_t1
+10_woman_curvy/08_punching replaced by 08_punching_t1
+01_sprint_rifle/a_man_30 flagged (['figure small (44% of frame)', 'figure small (46% of frame)'])
+01_sprint_rifle/b_woman_28 flagged (['figure small (47% of frame)', 'figure small (40% of frame)'])
+01_sprint_rifle/c_man_40 ok (c_man_40_t2)
+01_sprint_rifle/d_woman_25 flagged (['figure small (39% of frame)', 'figure small (45% of frame)'])
+01_sprint_rifle/e_man_35 flagged (['figure small (48% of frame)', 'figure small (44% of frame)'])
+02_aim_standing/a_man_30 done
+02_aim_standing/b_woman_28 done
+02_aim_standing/c_man_40 done
+02_aim_standing/d_woman_25 done
+02_aim_standing/e_man_35 done
+03_aim_kneeling/a_man_30 flagged (['figure small (44% of frame); R thigh/shin 2.24', 'figure small (44% of frame)'])
+=== photos-only run Sun Nov  8 17:32:20 EST 2026
+GPT body photos reframed: 16
+01_sprint_rifle/a_man_30 photo from a_man_30_t2.png
+01_sprint_rifle/b_woman_28 photo from b_woman_28_t2.png
+01_sprint_rifle/c_man_40 photo from c_man_40_t2.png
+01_sprint_rifle/d_woman_25 photo from d_woman_25_t2.png
+01_sprint_rifle/e_man_35 photo from e_man_35_t2.png
+02_aim_standing/a_man_30 photo from a_man_30_t2.png
+02_aim_standing/b_woman_28 photo from b_woman_28_t1.png
+02_aim_standing/c_man_40 photo from c_man_40_t1.png
+02_aim_standing/d_woman_25 photo from d_woman_25_t1.png
+02_aim_standing/e_man_35 photo from e_man_35_t2.png
+03_aim_kneeling/a_man_30 photo from a_man_30_t2.png
+03_aim_kneeling/b_woman_28 photo from b_woman_28_t1.png
+03_aim_kneeling/c_man_40 photo from c_man_40_t1.png
+03_aim_kneeling/d_woman_25 photo from d_woman_25_t1.png
+03_aim_kneeling/e_man_35 photo from e_man_35_t1.png
+04_pistol_aim/a_man_30 photo from a_man_30_t1.png
+04_pistol_aim/b_woman_28 photo from b_woman_28_t1.png
+04_pistol_aim/c_man_40 photo from c_man_40_t1.png
+04_pistol_aim/d_woman_25 photo from d_woman_25_t1.png
+04_pistol_aim/e_man_35 photo from e_man_35_t1.png
+05_grenade_throw/a_man_30 photo from a_man_30_t1.png
+05_grenade_throw/b_woman_28 photo from b_woman_28_t1.png
+05_grenade_throw/c_man_40 photo from c_man_40_t1.png
+05_grenade_throw/d_woman_25 photo from d_woman_25_t1.png
+05_grenade_throw/e_man_35 photo from e_man_35_t1.png
+06_taking_cover/a_man_30 photo from a_man_30_t1.png
+06_taking_cover/b_woman_28 photo from b_woman_28_t1.png
+06_taking_cover/c_man_40 photo from c_man_40_t1.png
+06_taking_cover/d_woman_25 photo from d_woman_25_t1.png
+06_taking_cover/e_man_35 photo from e_man_35_t1.png
+07_flying_kick/a_man_30 photo from a_man_30_t1.png
+07_flying_kick/b_woman_28 photo from b_woman_28_t1.png
+07_flying_kick/c_man_40 photo from c_man_40_t1.png
+07_flying_kick/d_woman_25 photo from d_woman_25_t1.png
+07_flying_kick/e_man_35 photo from e_man_35_t1.png
+08_dive_roll/a_man_30 photo from a_man_30_t1.png
+08_dive_roll/b_woman_28 photo from b_woman_28_t1.png
+08_dive_roll/c_man_40 photo from c_man_40_t1.png
+08_dive_roll/d_woman_25 photo from d_woman_25_t1.png
+08_dive_roll/e_man_35 photo from e_man_35_t1.png
+09_fist_fight/ab_duo photo from ab_duo_t1.png
+09_fist_fight/bc_duo photo from bc_duo_t1.png
+09_fist_fight/cd_duo photo from cd_duo_t1.png
+09_fist_fight/de_duo photo from de_duo_t1.png
+09_fist_fight/ea_duo photo from ea_duo_t1.png
+10_grapple/ab_duo photo from ab_duo_t1.png
+10_grapple/bc_duo photo from bc_duo_t1.png
+10_grapple/cd_duo photo from cd_duo_t1.png
+10_grapple/de_duo photo from de_duo_t1.png
+10_grapple/ea_duo photo from ea_duo_t1.png
+01_woman_45/01_neutral FAILED
+02_man_30/01_neutral ok
+03_woman_20/01_neutral ok
+04_man_65/01_neutral ok
+05_woman_35_curly/01_neutral FAILED
+06_man_40_asian/01_neutral FAILED
+07_woman_75/01_neutral FAILED
+08_boy_12/01_neutral FAILED
+09_man_25_beard/01_neutral FAILED
+ABORT: 4 Codex failures in a row, see /Users/nickv/ClaudeCode Projects/Krita Stencils/work/gpt/faces/10_woman_50_glasses/01_neutral.log
+10_woman_50_glasses/01_neutral FAILED
+01_woman_45/02_happy FAILED
+01_woman_45/03_laughing FAILED
+01_woman_45/04_sad FAILED
+01_woman_45/05_crying FAILED
+01_woman_45/06_angry FAILED
+01_woman_45/07_surprised FAILED
+01_woman_45/08_afraid FAILED
+01_woman_45/09_disgusted FAILED
+01_woman_45/10_thinking FAILED
+01_woman_45/11_front FAILED
+01_woman_45/12_three_quarter_left FAILED
+01_woman_45/13_three_quarter_right FAILED
+01_woman_45/14_profile_left FAILED
+01_woman_45/15_profile_right FAILED
+01_woman_45/16_looking_up FAILED
+01_woman_45/17_looking_down FAILED
+01_woman_45/18_back_three_quarter FAILED
+02_man_30/02_happy FAILED
+02_man_30/03_laughing FAILED
+02_man_30/04_sad FAILED
+02_man_30/05_crying FAILED
+02_man_30/06_angry FAILED
+02_man_30/07_surprised FAILED
+02_man_30/08_afraid FAILED
+02_man_30/09_disgusted FAILED
+02_man_30/10_thinking FAILED
+02_man_30/11_front FAILED
+02_man_30/12_three_quarter_left FAILED
+02_man_30/13_three_quarter_right FAILED
+02_man_30/14_profile_left FAILED
+02_man_30/15_profile_right FAILED
+02_man_30/16_looking_up FAILED
+02_man_30/17_looking_down FAILED
+02_man_30/18_back_three_quarter FAILED
+03_woman_20/02_happy FAILED
+03_woman_20/03_laughing FAILED
+03_woman_20/04_sad FAILED
+03_woman_20/05_crying FAILED
+03_woman_20/06_angry FAILED
+03_woman_20/07_surprised FAILED
+03_woman_20/08_afraid FAILED
+03_woman_20/09_disgusted FAILED
+03_woman_20/10_thinking FAILED
+03_woman_20/11_front FAILED
+03_woman_20/12_three_quarter_left FAILED
+03_woman_20/13_three_quarter_right FAILED
+03_woman_20/14_profile_left FAILED
+03_woman_20/15_profile_right FAILED
+03_woman_20/16_looking_up FAILED
+03_woman_20/17_looking_down FAILED
+03_woman_20/18_back_three_quarter FAILED
+04_man_65/02_happy FAILED
+04_man_65/03_laughing FAILED
+04_man_65/04_sad FAILED
+04_man_65/05_crying FAILED
+04_man_65/06_angry FAILED
+04_man_65/07_surprised FAILED
+04_man_65/08_afraid FAILED
+04_man_65/09_disgusted FAILED
+04_man_65/10_thinking FAILED
+04_man_65/11_front FAILED
+04_man_65/12_three_quarter_left FAILED
+04_man_65/13_three_quarter_right FAILED
+04_man_65/14_profile_left FAILED
+04_man_65/15_profile_right FAILED
+04_man_65/16_looking_up FAILED
+04_man_65/17_looking_down FAILED
+04_man_65/18_back_three_quarter FAILED
+05_woman_35_curly/02_happy FAILED
+05_woman_35_curly/03_laughing FAILED
+05_woman_35_curly/04_sad FAILED
+05_woman_35_curly/05_crying FAILED
+05_woman_35_curly/06_angry FAILED
+05_woman_35_curly/07_surprised FAILED
+05_woman_35_curly/08_afraid FAILED
+05_woman_35_curly/09_disgusted FAILED
+05_woman_35_curly/10_thinking FAILED
+05_woman_35_curly/11_front FAILED
+05_woman_35_curly/12_three_quarter_left FAILED
+05_woman_35_curly/13_three_quarter_right FAILED
+05_woman_35_curly/14_profile_left FAILED
+05_woman_35_curly/15_profile_right FAILED
+05_woman_35_curly/16_looking_up FAILED
+05_woman_35_curly/17_looking_down FAILED
+05_woman_35_curly/18_back_three_quarter FAILED
+06_man_40_asian/02_happy FAILED
+06_man_40_asian/03_laughing FAILED
+06_man_40_asian/04_sad FAILED
+06_man_40_asian/05_crying FAILED
+06_man_40_asian/06_angry FAILED
+06_man_40_asian/07_surprised FAILED
+06_man_40_asian/08_afraid FAILED
+06_man_40_asian/09_disgusted FAILED
+06_man_40_asian/10_thinking FAILED
+06_man_40_asian/11_front FAILED
+06_man_40_asian/12_three_quarter_left FAILED
+06_man_40_asian/13_three_quarter_right FAILED
+06_man_40_asian/14_profile_left FAILED
+06_man_40_asian/15_profile_right FAILED
+06_man_40_asian/16_looking_up FAILED
+06_man_40_asian/17_looking_down FAILED
+06_man_40_asian/18_back_three_quarter FAILED
+07_woman_75/02_happy FAILED
+07_woman_75/03_laughing FAILED
+07_woman_75/04_sad FAILED
+07_woman_75/05_crying FAILED
+07_woman_75/06_angry FAILED
+07_woman_75/07_surprised FAILED
+07_woman_75/08_afraid FAILED
+07_woman_75/09_disgusted FAILED
+07_woman_75/10_thinking FAILED
+07_woman_75/11_front FAILED
+07_woman_75/12_three_quarter_left FAILED
+07_woman_75/13_three_quarter_right FAILED
+07_woman_75/14_profile_left FAILED
+07_woman_75/15_profile_right FAILED
+07_woman_75/16_looking_up FAILED
+07_woman_75/17_looking_down FAILED
+07_woman_75/18_back_three_quarter FAILED
+08_boy_12/02_happy FAILED
+08_boy_12/03_laughing FAILED
+08_boy_12/04_sad FAILED
+08_boy_12/05_crying FAILED
+08_boy_12/06_angry FAILED
+08_boy_12/07_surprised FAILED
+08_boy_12/08_afraid FAILED
+08_boy_12/09_disgusted FAILED
+08_boy_12/10_thinking FAILED
+08_boy_12/11_front FAILED
+08_boy_12/12_three_quarter_left FAILED
+08_boy_12/13_three_quarter_right FAILED
+08_boy_12/14_profile_left FAILED
+08_boy_12/15_profile_right FAILED
+08_boy_12/16_looking_up FAILED
+08_boy_12/17_looking_down FAILED
+08_boy_12/18_back_three_quarter FAILED
+09_man_25_beard/02_happy FAILED
+09_man_25_beard/03_laughing FAILED
+09_man_25_beard/04_sad FAILED
+09_man_25_beard/05_crying FAILED
+09_man_25_beard/06_angry FAILED
+09_man_25_beard/07_surprised FAILED
+09_man_25_beard/08_afraid FAILED
+09_man_25_beard/09_disgusted FAILED
+09_man_25_beard/10_thinking FAILED
+09_man_25_beard/11_front FAILED
+09_man_25_beard/12_three_quarter_left FAILED
+09_man_25_beard/13_three_quarter_right FAILED
+09_man_25_beard/14_profile_left FAILED
+09_man_25_beard/15_profile_right FAILED
+09_man_25_beard/16_looking_up FAILED
+09_man_25_beard/17_looking_down FAILED
+09_man_25_beard/18_back_three_quarter FAILED
+10_woman_50_glasses/02_happy FAILED
+10_woman_50_glasses/03_laughing FAILED
+10_woman_50_glasses/04_sad FAILED
+10_woman_50_glasses/05_crying FAILED
+10_woman_50_glasses/06_angry FAILED
+10_woman_50_glasses/07_surprised FAILED
+10_woman_50_glasses/08_afraid FAILED
+10_woman_50_glasses/09_disgusted FAILED
+10_woman_50_glasses/10_thinking FAILED
+10_woman_50_glasses/11_front FAILED
+10_woman_50_glasses/12_three_quarter_left FAILED
+10_woman_50_glasses/13_three_quarter_right FAILED
+10_woman_50_glasses/14_profile_left FAILED
+10_woman_50_glasses/15_profile_right FAILED
+10_woman_50_glasses/16_looking_up FAILED
+10_woman_50_glasses/17_looking_down FAILED
+10_woman_50_glasses/18_back_three_quarter FAILED
+01_woman_45 GPT tiles in place: 0
+02_man_30 GPT tiles in place: 1
+03_woman_20 GPT tiles in place: 1
+04_man_65 GPT tiles in place: 1
+05_woman_35_curly GPT tiles in place: 0
+06_man_40_asian GPT tiles in place: 0
+07_woman_75 GPT tiles in place: 0
+08_boy_12 GPT tiles in place: 0
+09_man_25_beard GPT tiles in place: 0
+10_woman_50_glasses GPT tiles in place: 0
+EXIT 2

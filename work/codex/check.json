@@ -1,0 +1,12 @@
+{
+ "01_standing": "head near top edge",
+ "02_walking": "OK",
+ "03_running": "OK",
+ "04_sitting": "R thigh/shin 0.46",
+ "05_jumping": "head near top edge",
+ "06_crouching": "L thigh/shin 0.48",
+ "07_reaching": "OK",
+ "08_punching": "punching: no arm extended at shoulder height",
+ "09_lying": "core joints missing [12, 13]",
+ "10_pointing": "head near top edge"
+}

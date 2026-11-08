@@ -1,0 +1,12 @@
+03_man_60s/07_reaching replaced by 07_reaching_t1
+03_man_60s/08_punching replaced by 08_punching_t1
+02_aim_standing/a_man_30 ok (a_man_30_t2)
+02_aim_standing/b_woman_28 ok (b_woman_28_t1)
+02_aim_standing/c_man_40 ok (c_man_40_t1)
+02_aim_standing/d_woman_25 ok (d_woman_25_t1)
+02_aim_standing/e_man_35 flagged (['R upper arm/forearm 0.12', 'R upper arm/forearm 0.40'])
+05_grenade_throw/a_man_30 ok (a_man_30_t1)
+05_grenade_throw/b_woman_28 ok (b_woman_28_t1)
+05_grenade_throw/c_man_40 ok (c_man_40_t1)
+05_grenade_throw/d_woman_25 ok (d_woman_25_t1)
+05_grenade_throw/e_man_35 ok (e_man_35_t1)
