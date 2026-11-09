@@ -3,7 +3,7 @@
 usage: python3 stencils/build.py            -> out/bodies.ora, out/faces.ora, out/*_contact.png
 Flagged body tiles are still included, with "(check)" in the layer name, so nothing silently vanishes.
 """
-import os, sys
+import os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from PIL import Image, ImageDraw
 from ora import write_ora
@@ -67,7 +67,7 @@ def actions(folder="actions", scenes=None, out="actions"):
     groups, contact, missing = [], [], []
     for scene in scenes or [s for s, _, _, _ in ACTION_SCENES]:
         d = os.path.join(WORK, folder, scene)
-        names = sorted({f[:-len("_photo.png")] for f in os.listdir(d) if f.endswith("_photo.png") and "_t" not in f}) if os.path.isdir(d) else []
+        names = sorted({f[:-len("_photo.png")] for f in os.listdir(d) if f.endswith("_photo.png") and not re.search(r"_t\d_photo", f)}) if os.path.isdir(d) else []
         if not names:
             missing.append(scene); continue
         layers = []
