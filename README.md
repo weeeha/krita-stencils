@@ -6,6 +6,7 @@ Draw-over practice files for Krita: realistic photos of figures, faces and actio
 |---|---|
 | `out/bodies.ora` | 10 people x 10 actions (standing, walking, running, sitting, jumping, crouching, reaching, punching, lying, pointing) |
 | `out/faces.ora` | 10 people x 10 emotions + 8 head angles |
+| `out/film.ora` | film poses for 5 everyday characters (late 80s to mid 90s Montreal): 12 getting-by poses, 12 running-away poses, 12 blast-and-aftermath poses, plus 6 two-person scenes per pair |
 | `out/actions.ora` | 10 action scenes (rifle sprint and aims, pistol, grenade, cover, kick, dive, fist fight, grapple) x 5 characters |
 | `out/*_contact.png` | every stencil on one sheet, to pick one before opening the file |
 
@@ -53,9 +54,23 @@ python3 stencils/build.py
 
 Raw GPT images are kept in `work/gpt/`, so a stopped run resumes. Local tiles that were replaced are in `work/_old/`.
 
+## Character sheets (GPT)
+
+`stencils/gpt_sheets.py` asks GPT for one sheet holding 6 to 12 poses or faces of the same person, then cuts it at the white gutters, upscales each cell 4x on ArtPC (NMKD Superscale) and places it as its own tile. One sheet costs about 42k plan tokens, the same as a single image.
+
+```bash
+python3 stencils/gpt_sheets.py film     # 3 sheets per film character (6x2, 6x2, 4x3)
+python3 stencils/gpt_sheets.py duos     # one 3x2 two-person sheet per pair
+python3 stencils/gpt_sheets.py faces    # 2 sheets per person: 10 emotions + 2 angles, then 6 angles
+python3 stencils/gpt_sheets.py split    # needs Krita open on the GPU PC and the tunnel up
+python3 stencils/build.py
+```
+
 ## Decisions
 
 - 2026-11-08: local models only (RealVisXL on ArtPC). GPT via Codex was compared and gave cleaner face sheets but small full-body figures and no pose control; local was judged good enough and costs nothing per image.
 - Hand-drawn pose skeletons were dropped: they made stiff figures. Poses now come from the prompt, checked after the fact.
 - 2026-11-08: GPT (Codex) for all faces, the 18 bodies that failed the pose check, and a new action-scene set; local RealVisXL for the other bodies. GPT gave cleaner faces and got hard actions right.
 - 2026-11-08: layers are the photos, not traced outlines. Nick draws straight over the photo, so tracing, its seam fixes and the per-image retries were dropped.
+- 2026-11-09: GPT character sheets (12 poses per image) instead of one image per pose: 39 sheets gave 348 tiles for 1.4M plan tokens, and identity holds across a sheet. Faces are now all GPT, built from each person's local neutral portrait as the reference.
+- 2026-11-09: the film set follows Nick's films (walking, scavenging, repairing, workbench, running away, blast aftermath) rather than combat. GPT refused the blast sheet for the 15-year-old, so that character has none.
